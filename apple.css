@@ -1,45 +1,118 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 html,body{
-    height: 100%;
     width: 100%;
+    height: 100%;
+    background-color: rgb(222, 219, 219);
 }
- #main{
-    height: 100%;
+
+#main{
     width: 100%;
- }
+    height: 100%;}
 
 #header{
-    height: 52px;
+    height: 7%;
     width: 100%;
-    background-color:rgba(83, 83, 83, 0.851)
-    position:fixed;
+    background-color: black;
+    position: fixed;
+    opacity: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-#fake header{
-    height: 522px;
+    opacity: 0.9;
+}    
+#fakeheader{
+    height: 7%;
     width: 100%;
-    position:fixed;
-    background-color: rgb(183, 180, 180);
-    
+    background-color: black;
+}    
+#page1{
+    height: 93%;
+    width: 100%;
 }
-.navbar{
-    margin-right: 32px;
-    height:50px ;
-    transform: translateX(20px) translateY(10px);
-    z-index: 50;
+#page2{
+    height: 93%;
+    width: 100%;
+}
+#page3{
+    height: 93%;
+    width: 100%;
+}
+#page4{
+    height: 93%;
+    width: 100%;
+    display: flex;
+}
+#page5{
+    height: 93%;
+    width: 100%;
+    display: flex;
+}
+#pag6{
+    height: 93%;
+    width: 100%;
+    display: flex;
+}
+
+.texts{
+color:rgba(186, 185, 185, 0.8);
+margin-right: 40px;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#navbar{
+    background-color: rgb(29, 29, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#fax{
+    height:  93%;
+    width: 100%;
+}
+#photo{
+    object-fit: cover;
+    overflow: scroll;
+    height: 92%;
+    width: 100%;
+}
+#pics{
+    object-fit: cover;
+    overflow: scroll;
+    height: 92%;
+    width: 100%;
+    margin-top: 5px;
+}
+.go{
+    width: 50%;
+}
+.pix{
+    margin-top: 2px;
+    margin-right: 2px;
 
 }
-.ri-apple-line{
-    height: 2%;
-    width: 2%;
+.poo{
+    width: 50%;
+}
+.pou{
+    width: 50%;
 }
 
+#pge7{
+    height: 93%;
+    width: 100%;
+
+}
+#page8{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.text{
+    color: rgb(139, 139, 137);
+}
